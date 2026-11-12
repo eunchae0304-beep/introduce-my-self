@@ -1,0 +1,201 @@
+
+body {
+    background-color: #eef6ff;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+}
+
+/* 제목 */
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-title {
+    color: #2364a0;
+    font-size: 28px;
+}
+
+.action-btn {
+    background-color: #cfe7ff;
+    border: 1px solid #9bbfe1;
+    padding: 10px;
+}
+
+/* 자기소개 박스 */
+.section {
+    background-color: white;
+    border: 1px solid #8fc2f1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* 프로필 */
+.profile-box {
+    text-align: center;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.profile-text h2 {
+    color: #2364a0;
+}
+
+.contact-info {
+    color: #496985;
+}
+
+/* 장점과 단점 */
+.half-box {
+    background-color: #eff7ff;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.goal-section {
+  margin-top:40px;
+  padding:24px;
+  border-radius:16px;
+  background-color: #f5f5f5;
+}
+
+.goal-description {
+  color: #555;
+}
+
+.goal-input-box {
+  display:flex;
+  gap:8px;
+  margin-top:16px;
+}
+
+#goalInput {
+  flex:1;
+  padding:10px;
+  border:1pxsolid #ddd;
+  border-radius:8px;
+}
+
+#addGoalBtn {
+  padding:10px16px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+#errorMessage {
+  color:crimson;
+  min-height:20px;
+}
+
+#goalCount {
+  font-size:14px;
+  color: #555;
+}
+
+#goalList {
+  margin-top:16px;
+  padding-left:0;
+  list-style:none;
+}
+
+.goal-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:8px;
+  padding:12px;
+  border-radius:10px;
+  background-color:white;
+}
+
+.goal-text {
+  cursor:pointer;
+}
+
+.goal-text.done {
+  color:gray;
+  text-decoration:line-through;
+}
+
+.delete-btn {
+  border:none;
+  background-color:transparent;
+  cursor:pointer;
+}
+
+.guestbook-section {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.guestbook-section h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#server-msg, #my-msg {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.write-area {
+  display: flex;
+  gap: 10px;
+}
+
+#guest-name {
+  width: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#guest-msg {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#guest-name:focus, #guest-msg:focus {
+  border-color: #007bff;
+}
+
+#submit-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submit-btn:hover {
+  background-color: #0056b3;
+}
